@@ -4,7 +4,7 @@ My personal portfolio project
 
 # Modern Portfolio Website
 
-A high-performance portfolio built with Next.js, TypeScript, and Tailwind CSS, featuring dark mode and optional AI chatbot integration.
+A high-performance portfolio built with Next.js, TypeScript, and Tailwind CSS featuring persistent dark mode using localStorage and optional AI chatbot integration.
 
 ## Features
 
@@ -18,8 +18,17 @@ A high-performance portfolio built with Next.js, TypeScript, and Tailwind CSS, f
   - Modern Footer
 - **[Optional] AI Chatbot** (if implemented)
 
+## 📌 Development Workflow
+
+### GitHub Projects Integration
+
+This project uses **GitHub Projects** for agile sprint planning:
+
+- **Sprint Boards**: Visual task tracking
+
 ## Technologies
 
-TYPESCRIPT
-NEXT.JS
-TAILWIND CSS
+- TYPESCRIPT
+- NEXT.JS
+- TAILWIND CSS
+- LOCALSTORAGE
