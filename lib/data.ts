@@ -1,5 +1,15 @@
 import React from "react";
+
+// REACT ICONS
 import { CgWorkAlt } from "react-icons/cg";
+import { FaCode } from "react-icons/fa6";
+import { MdOutlineDesignServices } from "react-icons/md";
+import { FaGitAlt } from "react-icons/fa";
+import { VscVscodeInsiders } from "react-icons/vsc";
+import { FaReact } from "react-icons/fa6";
+import { SiNextdotjs } from "react-icons/si";
+import { IoLogoFigma } from "react-icons/io5";
+
 import project1_img from "@/public/project1_img.png";
 import project2_img from "@/public/project2_img.png";
 import project3_img from "@/public/project3_img.png";
@@ -30,6 +40,32 @@ export const links = [
     hash: "#contact",
   },
 ] as const;
+
+export const infoList = [
+  {
+    icon: React.createElement(MdOutlineDesignServices),
+    title: "UX Design",
+    description: "Figma, Adobe, Research, Wireframing",
+  },
+  {
+    icon: React.createElement(FaCode),
+    title: "Languages",
+    description: "HTML, CSS, Javascript, React JS, Next JS",
+  },
+  {
+    icon: React.createElement(CgWorkAlt),
+    title: "Projects",
+    description: "Built more than 10 projects",
+  },
+];
+
+export const toolsData = [
+  React.createElement(VscVscodeInsiders),
+  React.createElement(FaReact),
+  React.createElement(SiNextdotjs),
+  React.createElement(IoLogoFigma),
+  React.createElement(FaGitAlt),
+];
 
 export const experiencesData = [
   {
