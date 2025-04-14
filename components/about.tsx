@@ -1,17 +1,36 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 import aboutme_img from "@/public/aboutme_img.png";
 import { infoList, toolsData } from "@/lib/data";
+import { motion } from "framer-motion";
 
 export default function About() {
   return (
     <section className="max-w-[100%] sm:px-12 md:px-[12%] py-10 scroll-mt-20 mx-auto ">
       <h2 className="text-center text-4xl">About Me</h2>
       <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
-        <div className="w-64 sm:w-80 rounded-3xl max-w-none">
+        <motion.div
+          className="w-64 sm:w-80 rounded-3xl max-w-none"
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            type: "tween",
+            duration: 0.2,
+          }}
+        >
           <Image src={aboutme_img} alt="user potrait" className="w-full" />
-        </div>
-        <div className="flex-1 max-w-[25rem]">
+        </motion.div>
+        <motion.div
+          className="flex-1 max-w-[25rem]"
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            type: "tween",
+            duration: 0.5,
+          }}
+        >
           <p className="mb-10 max-w-2xl">
             I am an experienced UX Designer with Frontend Dev knowledge.
             Throughout my career, I have had the privilege of collaborating with
@@ -41,7 +60,7 @@ export default function About() {
               </li>
             ))}
           </ul>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
