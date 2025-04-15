@@ -7,14 +7,19 @@ import aboutme_img from "@/public/aboutme_img.png";
 import { infoList, toolsData } from "@/lib/data";
 import { motion } from "framer-motion";
 import SectionHeading from "./section-heading";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
+  const { ref } = useSectionInView("About", 0.75);
+
   return (
     <motion.section
-      className="max-w-[100%] sm:px-12 md:px-[12%] my-24  mx-auto "
+      ref={ref}
+      className="max-w-[100%] sm:px-12 md:px-[12%] my-24  mx-auto scroll-mt-28 "
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
+      id="about"
     >
       <SectionHeading>About me</SectionHeading>
       <div className="flex w-full flex-col lg:flex-row items-center gap-20 ">
