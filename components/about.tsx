@@ -3,14 +3,21 @@
 import Image from "next/image";
 import React from "react";
 import aboutme_img from "@/public/aboutme_img.png";
+
 import { infoList, toolsData } from "@/lib/data";
 import { motion } from "framer-motion";
+import SectionHeading from "./section-heading";
 
 export default function About() {
   return (
-    <section className="max-w-[100%] sm:px-12 md:px-[12%] py-10 scroll-mt-20 mx-auto ">
-      <h2 className="text-center text-4xl">About Me</h2>
-      <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
+    <motion.section
+      className="max-w-[100%] sm:px-12 md:px-[12%] my-24  mx-auto "
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.175 }}
+    >
+      <SectionHeading>About me</SectionHeading>
+      <div className="flex w-full flex-col lg:flex-row items-center gap-20 ">
         <motion.div
           className="w-64 sm:w-80 rounded-3xl max-w-none"
           initial={{ opacity: 0, scale: 0 }}
@@ -18,6 +25,7 @@ export default function About() {
           transition={{
             type: "tween",
             duration: 0.2,
+            delay: 0.3,
           }}
         >
           <Image src={aboutme_img} alt="user potrait" className="w-full" />
@@ -28,7 +36,8 @@ export default function About() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{
             type: "tween",
-            duration: 0.5,
+            duration: 0.8,
+            delay: 0.5,
           }}
         >
           <p className="mb-10 max-w-2xl">
@@ -62,6 +71,6 @@ export default function About() {
           </ul>
         </motion.div>
       </div>
-    </section>
+    </motion.section>
   );
 }
