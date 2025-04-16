@@ -127,7 +127,12 @@ export const skillsData = [
   "Next.js",
   "Git",
   "Tailwind",
+  "Github",
   "Figma",
   "Adobe",
   "Affinity",
+  "Framer Motion",
+  "Final Cut",
+  "Logic Pro",
+  "DaVinci Resolve",
 ] as const;
