@@ -69,7 +69,7 @@ export const toolsData = [
 
 export const experiencesData = [
   {
-    title: "UX Designer",
+    title: "UX designer",
     location: "Inselo, Stockholm",
     description:
       "Collaborated with cross-functional teams, developers and product managers to integrate design solutions.Executed content design initiatives for Inselo's website/partner app and conducted research to improve the overall user experience. Created wireframes, prototypes and high-fidelity designs to visualize and communicate design concepts.",
@@ -77,7 +77,7 @@ export const experiencesData = [
     date: "2022",
   },
   {
-    title: "Project Coordinator",
+    title: "Project coordinator",
     location: "Lernia, Stockholm",
     description:
       "Primary contact person for system development efforts, communicator between end users and developers. Collaborated with various departments and teams to promote effective communication and ensure development for the organization's business goals. Identified opportunities for process improvements and implemented streamlined workflows. Trained staff, induction processes and continuous competence.",
@@ -85,7 +85,7 @@ export const experiencesData = [
     date: "2011 - 2018",
   },
   {
-    title: "Content Creator",
+    title: "Content creator",
     location: "Esprit, London",
     description:
       "Create content and produce engaging and relevant content to increase brand visibility. Conducted market research and analysis to identify trends and business opportunities. Visual and multimedia content, maintaining a cohesive brand voice and style across all channels. Managed social media accounts and promoted community engagement. Collaborated with UX team to ensure content aligns with overall user experience.",
