@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-200 pt-28 sm:pt-36 h-[5000px]`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-200 pt-28 sm:pt-36`}
       >
         <ActiveSectionContextProvider>
           <Header />
