@@ -1,38 +1,69 @@
-# portfolio_project
+# Elioenai's Portfolio
 
-My personal portfolio project
+![Header](./screenshots/Header.png)
+![About Me](./screenshots/About%20me.png)
+![Projects](./screenshots/Projects.png)
+![Experience](./screenshots/Experience.png)
+![Contact](./screenshots/Contact%20me.png)
+![Chatbot](./screenshots/Chat.png)
 
-# Modern Portfolio Website
+A modern portfolio showcasing my UX design and frontend development expertise, built with Next.js and TypeScript.
 
-A high-performance portfolio built with Next.js, TypeScript, and Tailwind CSS featuring persistent dark mode using localStorage and optional AI chatbot integration.
+### ✨ Features
 
-## Features
+- **Single-Page Navigation** (Smooth scrolling to sections)
+- **Interactive Project Gallery** with technology tags
+- **Professional Timeline** of work experience
+- **AI Chatbot** trained on my CV (Powered by Chatbase)
+- **Responsive Contact Form** with email integration
 
-- **Sections**:
-  - Dynamic Navigation Bar
-  - Hero/Introduction Section
-  - About Me with Skills Visualization
-  - Interactive Projects Gallery
-  - Professional Experience Timeline
-  - Contact Form with Validation
-  - Modern Footer
-- **[Optional] AI Chatbot** (if implemented)
+### 🛠️ Tech Stack
 
-## 📌 Development Workflow
+<div align="center">
 
-### GitHub Projects Integration
+![Next.js](https://img.shields.io/badge/Next.js-15.2.4-000000?logo=next.js)  
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript)  
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?logo=tailwind-css)  
+![React](https://img.shields.io/badge/React-19.0.0-61DAFB?logo=react)
 
-This project uses **GitHub Projects** for agile sprint planning:
+</div>
 
-- **Sprint Boards**: Visual task tracking
+### Key Dependencies
 
-## Technologies
+{
+"@react-email/components": "Email templates",
+"framer-motion": "Animations",
+"react-intersection-observer": "Scroll effects",
+"react-vertical-timeline-component": "Experience timeline",
+"resend": "Email delivery"
+}
 
-- TYPESCRIPT
-- NEXT.JS
-- TAILWIND CSS
-- LOCALSTORAGE
+### 🧭 Navigation System
 
-## 🎨 Figma Frames
+![Flowchart](./screenshots/flowchart.png)
 
-- https://www.figma.com/design/DOT5Ywbek0Btc3dr4z6jVj/Elioenai-Portfolio-Project?node-id=0-1&t=caJwx7vTqYN35kNj-1
+### 🚧 Future Roadmap
+
+- Immediate Priorities
+- Feature Status Details
+- Dark Mode Planned localStorage + system pref
+- Service Checklist Designed Checkbox selector for:
+- UX Design
+- Frontend Dev
+- Consulting
+  **Availability Badge**
+  **Real-time status indicator**
+
+### 📦 Setup & Deployment
+
+# 1. Clone repo
+
+git clone https://github.com/Zuekiin/portfolio_project.git
+
+# 2. Install dependencies
+
+npm install
+
+# 3. Run locally
+
+npm dev
