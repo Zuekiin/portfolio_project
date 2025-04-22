@@ -19,24 +19,20 @@ A modern portfolio showcasing my UX design and frontend development expertise, b
 
 ### 🛠️ Tech Stack
 
-<div align="center">
+- ![Next.js](https://img.shields.io/badge/Next.js-15.2.4-000000?logo=next.js)
+- ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript)
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?logo=tailwind-css)
+- ![React](https://img.shields.io/badge/React-19.0.0-61DAFB?logo=react)
 
-![Next.js](https://img.shields.io/badge/Next.js-15.2.4-000000?logo=next.js)  
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript)  
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?logo=tailwind-css)  
-![React](https://img.shields.io/badge/React-19.0.0-61DAFB?logo=react)
+### 💼 Key Dependencies
 
-</div>
-
-### Key Dependencies
-
-{
-"@react-email/components": "Email templates",
-"framer-motion": "Animations",
-"react-intersection-observer": "Scroll effects",
-"react-vertical-timeline-component": "Experience timeline",
-"resend": "Email delivery"
-}
+- {
+- "@react-email/components": "Email templates",
+- "framer-motion": "Animations",
+- "react-intersection-observer": "Scroll effects",
+- "react-vertical-timeline-component": "Experience timeline",
+- "resend": "Email delivery"
+- }
 
 ### 🧭 Navigation System
 
@@ -66,4 +62,4 @@ npm install
 
 # 3. Run locally
 
-npm dev
+npm run dev
